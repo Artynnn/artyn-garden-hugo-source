@@ -1,0 +1,22 @@
+baseURL = "https://artyns-garden.vercel.app" # to be decided probably going to be Vercel
+languageCode = "en-us"
+title = "Artyn's digital garden"
+metaDataFormat = "toml"
+
+[taxonomies]
+  tag = 'tags'
+
+[markup]
+  # This is the default from Hugo 0.60.0 onwards
+  defaultMarkdownHandler = "goldmark"
+
+[markup.highlight]
+  codeFences = true
+  noClasses = true
+  style = "perldoc"
+
+[params]
+  homeText = "Artyn's thoughts on Technology. Themes: Emacs, Python, Lisp, NixOS, Linux, minimalistic and retrocomputing"
+
+
+

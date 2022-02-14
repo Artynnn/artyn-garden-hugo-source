@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Source Serif Pro Regular";
+  src: url(/fonts/SourceSerifPro-Regular.ttf); }
+
+@font-face {
+  font-family: "Source Code Pro Regular";
+  src: url(/fonts/SourceCodePro-Regular.ttf); }
+
+body {
+  background-color: #fffff8; }
+
+#content {
+  width: 65ch;
+  position: relative; }
+
+.floating-footnotes {
+  width: 25em;
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  /* The entire main article content, + the margins */
+  left: calc(100% + 2em); }
+
+.floating-footnotes hr {
+  display: none !important; }
+
+.floating-footnotes li[role=doc-endnote] p:last-child {
+  margin-bottom: 0; }
+
+body {
+  /* width: 93.33%; */
+  max-width: 1470px;
+  font-family: "Source Serif Pro Regular";
+  line-height: 1.5;
+  font-size: 1em; }
+
+p {
+  margin-bottom: 1.4rem; }
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.05;
+  letter-spacing: 0.0175em;
+  font-weight: normal; }
+
+@media only screen and (max-width: 600px) {
+  #content {
+    width: 100%; }
+  body {
+    padding-left: 0; } }
+
+h2 {
+  margin-top: 2.1rem;
+  margin-bottom: .7rem;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  letter-spacing: -0.0175em;
+  font-weight: normal; }
+
+.floating-footnotes {
+  font-size: .9em; }
+
+.scale {
+  height: 1em;
+  width: 1em; }
+
+ul > li {
+  list-style: "✦ "; }
+
+ul li ul li {
+  list-style: "✧ "; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  color: #096DE0;
+  text-decoration: none; }
+
+/* a:hover { */
+/*   background: #fbeaea; */
+/*   transition-property: background; */
+/*   transition-duration: .2s; */
+/*   border-radius: 8px; } */
+
+@media only screen and (min-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr; } }
+
+pre {
+  overflow: auto;
+  padding: 1em; }
+
+header h3 {
+  display: inline; }
+  header h3 .rss {
+      color: #996100; }
+
+  header h3 .mastodon {
+    color: #0D4E99; }  
+  
+.top-of-site-link {
+    color: #096DE0;
+}
+
+@media (min-width:801px)  {
+    .top-of-site-link {
+	  position: fixed;
+	  bottom: .4em;
+	  right: 1.5em;
+	  font-size: 2em;
+    }
+}
+    
+  /* position: fixed; */
+  /* bottom: .4em; */
+  /* right: 1.5em; */
+  /* font-size: 2em; } */
+  /* .top-of-site-link a:hover { */
+  /*   background: red; } */
+
+/* experimental and probably will be removed */
+#TableOfContents {
+  width: 16rem;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: .7em; }
+
+
+@media only screen and (max-width: 600px) {
+    #TableOfContents {
+	font-size: 1em;
+	position: static;
+    }
+    .top-of-site-link {
+	font-size: 2em;
+    }
+}
+
+
+/* @media only screen and (min-width: 600px) { */
+/*   #TableOfContents { */
+/*     position: sticky; } } */
+

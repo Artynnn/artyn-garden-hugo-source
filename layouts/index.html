@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" id="top-of-site">
+  <head>
+    {{ partial "head.html" . }}
+   </head>
+  <body>
+    {{ partial "header.html" . }}
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Site.Params.homeText | markdownify }}</p>
+    {{/* loop through all the tags [which I treat more as categories] and display pages links and title */}}
+    <div class="container">
+      {{ range .Site.Taxonomies.tags }}
+      <div class="category-section">
+	<h1>{{ .Page.Title }}</h1>
+	{{/* oldest notes are probably more developed so we want people to see them */}}
+	{{ range .Pages.ByPublishDate.Reverse }}
+        <p>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+	  {{/* not sure if span is the right element here but I always like to wrap element */}}
+	  ({{ .Page.WordCount }} words, updated {{ .Page.Lastmod.Format "January 2006" }})
+	</p>
+	{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </body>
+</html>
