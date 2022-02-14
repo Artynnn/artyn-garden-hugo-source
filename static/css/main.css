@@ -153,8 +153,8 @@ header h3 {
     color: green !important;
 }
 
-website-version-history {
-    color: darkgreen !important;
+.website-version-history {
+	color: green;
 }
 
 /* @media only screen and (min-width: 600px) { */
