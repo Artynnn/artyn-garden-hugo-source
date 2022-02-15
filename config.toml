@@ -16,7 +16,7 @@ metaDataFormat = "toml"
   style = "perldoc"
 
 [params]
-  homeText = "Artyn's thoughts on Technology. Themes: Emacs, Python, Lisp, NixOS, Linux, minimalistic and retrocomputing"
+  homeText = "Artyn's thoughts on technology. Themes: Emacs, Python, Lisp, NixOS, Linux, minimalistic and retrocomputing"
 
 
 
