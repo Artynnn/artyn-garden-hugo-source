@@ -1,6 +1,6 @@
 [[screenshots/desktop.png]]
 
-[[screenshots/desktop]]
+[[screenshots/mobile.png]]
 
-[[screenshots/desktop]]
+[[screenshots/text-browser.png]]
 
