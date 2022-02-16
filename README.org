@@ -1,6 +1,13 @@
+Desktop view:
+
 [[screenshots/desktop.png]]
+
+Mobile view:
 
 [[screenshots/mobile.png]]
 
+Text browser view:
+
 [[screenshots/text-browser.png]]
 
+A lot more work needs to be done, but the hard part of content presentation is done. If you want a more polished theme already easily available for Hugo I recommended [[https://github.com/capnfabs/paperesque][paperesque theme]]. I got the sidenotes code from that theme.
