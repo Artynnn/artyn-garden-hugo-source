@@ -11,3 +11,14 @@ Text browser view:
 [[screenshots/text-browser.png]]
 
 A lot more work needs to be done, but the hard part of content presentation is done. If you want a more polished theme already easily available for Hugo I recommended [[https://github.com/capnfabs/paperesque][paperesque theme]]. I got the sidenotes code from that theme.
+
+* Inspiration
+
+Websites that inspired my design choices:
+
+- https://blog.sulami.xyz/
+- https://github.com/capnfabs/paperesque
+- https://takeonrules.com/
+- https://sanchom.github.io/
+- https://www.mtsolitary.com/
+- https://scripter.co/
