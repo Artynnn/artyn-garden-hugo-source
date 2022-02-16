@@ -1,5 +1,6 @@
-[[file:screenshots/desktop.png][Desktop]]
+[[screenshots/desktop.png]]
 
-[[file:screenshots/mobile.png][Mobile]]
+[[screenshots/desktop]]
 
-[[file:screenshots/text-browser.png][Text Browser (EWW)]]
+[[screenshots/desktop]]
+
