@@ -2,4 +2,4 @@
 
 [[file:screenshots/mobile.png][Mobile]]
 
-
+[[file:screenshots/text-browser.png][Text Browser (EWW)]]
