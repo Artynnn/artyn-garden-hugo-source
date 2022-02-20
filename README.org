@@ -17,7 +17,8 @@ A lot more work needs to be done, but the hard part of content presentation is d
 Websites that inspired my design choices:
 
 - https://blog.sulami.xyz/
-- https://github.com/capnfabs/paperesque
+- http://www.aaronsw.com/weblog/archive
+- https://github.com/capnfabs/paperesque (got the sidenotes from here)
 - https://takeonrules.com/
 - https://sanchom.github.io/
 - https://www.mtsolitary.com/
