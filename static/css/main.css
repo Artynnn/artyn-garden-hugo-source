@@ -161,3 +161,17 @@ header h3 {
 /*   #TableOfContents { */
 /*     position: sticky; } } */
 
+.website-search {
+    color: orangered;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    @media not print {
+        bodyx {background:#0e0e0e;color:#e1e1e1; }
+        a {color: gold;}
+        a:visited {color: orange;}
+        a:hover,a:focus{color: orangered;}
+    }
+}
+

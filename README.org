@@ -23,3 +23,5 @@ Websites that inspired my design choices:
 - https://sanchom.github.io/
 - https://www.mtsolitary.com/
 - https://scripter.co/
+- https://lepisma.xyz/
+- https://yarchive.net/bike/index.html

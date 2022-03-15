@@ -1,0 +1,9 @@
+* OPEN fix backlink partial (including things that aren't backlinks)
+
+Its due to the fact that my file names aren't based on dates, but just general words that I use in the title.
+
+* OPEN weird behavior with search
+
+for example, I search for "emac" and I get all instances of the reference "emacs", but if I do an actualy search for "emacs", I get NOTHING. Despite the fact that "emacs" is always the one actually used. I checked the json aswell and it is always "emacs".
+
+This is utterly strange to me.

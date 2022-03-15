@@ -6,7 +6,7 @@
   <body>
     {{/* we load the sidenotes */}}
     {{ $sidenote := "js/sidenotes.js" | relURL }}
-    <script type="text/javascript" src="{{ $sidenote }}"></script>
+    <script src="{{ $sidenote }}"></script>
 
     {{ partial "header.html" . }}
     <article id="main" class="content-container">

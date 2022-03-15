@@ -1,8 +1,38 @@
+<!-- character encoding -->
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- width is device width, initial scale is zoom level -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- page description -->
+{{ with.Description }}<meta name="description" content="{{ . }}" />{{ end }}
+<!-- disable detection of telephone like numbers -->
+<meta name="format-detection" content="telephone=no">
+<!-- please use Mastodon -->
+<meta name="twitter:dnt" content="on">
+<!-- unsure -->
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+
+<!-- canonical / offical location of this page -->
+<link rel="canonical" href="{{ .Permalink }}" />
+
+<!-- FAVICONS: -->
+<link rel="icon" href="/favicon.ico">
+<!-- modern favicon, supports dark mode? -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/my.webmanifest">
 
 {{ $style := "css/main.css" | relURL }}
 <link rel="stylesheet" href="{{ $style }}"> 
 
-<title>{{ .Title }}</title>
+<title>{{ .Title }} - {{ .Site.Title }}</title>
 
+<!-- opengraph -->
+<meta property="og:title" content="{{ .Title }}">
+{{ with.Description }}<meta property="og:description" content="{{ . }}" />{{ end }}
+<meta property="og:image" content="/rose.jpg">
+<meta property="og:image:alt" content="roses">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:url" content="{{ .Permalink }}">

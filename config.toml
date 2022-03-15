@@ -6,17 +6,24 @@ metaDataFormat = "toml"
 [taxonomies]
   tag = 'tags'
 
-[markup]
-  # This is the default from Hugo 0.60.0 onwards
-  defaultMarkdownHandler = "goldmark"
+# [markup]
+#   # This is the default from Hugo 0.60.0 onwards
+#   defaultMarkdownHandler = "goldmark"
 
-[markup.highlight]
-  codeFences = true
-  noClasses = true
-  style = "perldoc"
+# [markup.highlight]
+#   codeFences = true
+#   noClasses = true
+#   style = "perldoc"
 
 [params]
   homeText = "Artyn's thoughts on technology. Themes: Emacs, Python, Lisp, NixOS, Linux, minimalistic and retrocomputing"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+    section = ["JSON", "HTML"]
 
 
