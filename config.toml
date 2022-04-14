@@ -23,7 +23,12 @@ metaDataFormat = "toml"
     [markup.goldmark.renderer]
       unsafe = true
 
+[outputFormats]
+[outputFormats.TOML]
+mediaType = "application/toml"
+
 [outputs]
-    section = ["JSON", "HTML"]
+  home = ["HTML", "RSS", "TOML", "JSON"]
+
 
 
