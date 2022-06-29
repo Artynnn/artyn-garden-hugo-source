@@ -1,11 +1,11 @@
-DOMAIN = artynnn.github.io
-OUTPUT_DIR = ~/Sync/Projects/Artynnn.github.io/
+DOMAIN = https://artyns-garden.vercel.app/
+OUTPUT_DIR = ~/Sync/Projects/artyns-garden.vercel.app/public/
 HUGO_BASEURL = "https://$(DOMAIN)/"
 HUGO_FLAGS += --gc --minify
 
 .PHONY: hugo
 hugo: clean
-	hugo --gc --baseURL $(HUGO_BASEURL) $(HUGO_FLAGS) --destination $(OUTPUT_DIR)
+	hugo --gc $(HUGO_FLAGS) --destination $(OUTPUT_DIR)
 
 .PHONY: clean
 clean:
@@ -18,3 +18,9 @@ view: hugo
 .PHONY: publish
 publish: hugo
 	vercel --prod
+
+.PHONY: search
+search: hugo
+	cp $(OUTPUT_DIR)index.toml content/index.toml
+	cd content && stork build --input index.toml --output ../static/index.st
+

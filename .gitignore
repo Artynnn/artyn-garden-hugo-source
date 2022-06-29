@@ -3,3 +3,9 @@ content/
 content/*
 public/
 
+/layouts/_default/index.sync-conflict-20220414-161946-DAWSE7X.toml
+/love/
+/node_modules/
+/package-lock.json
+/package.json
+/.hugo_build.lock

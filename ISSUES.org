@@ -1,12 +1,13 @@
-* TODO  fix backlink partial (including things that aren't backlinks)
+* TODO fix backlink partial (including things that aren't backlinks)
 
 Its due to the fact that my file names aren't based on dates, but just general words that I use in the title.
 
 Should I include dates? I am thinking of starting the git log all over since my git history has been broken apart.
 
-* DONE weird behavior with search
+* TODO add json-feed
+* DONE weird behavior with lunr.js search
 
-for example, I search for "emac" and I get all instances of the reference "emacs", but if I do an actualy search for "emacs", I get NOTHING. Despite the fact that "emacs" is always the one actually used. I checked the json aswell and it is always "emacs".
+For example, I search for "emac" and I get all instances of the reference "emacs", but if I do an actualy search for "emacs", I get NOTHING. Despite the fact that "emacs" is always the one actually used. I checked the JSON aswell and it always says "emacs".
 
 This is utterly strange to me.
 
@@ -20,7 +21,12 @@ Stork seems better in all categories:
 - simpler setup (atleast to me)
 - shows highlighted sections not places where term is allegedly referenced
 
-* Automate workflow to create site index
+* DONE Automate workflow to create site index
 
 Could probably due this in the makefile? I have the index.toml builder in =layouts/= but I need it in =content/= after a render. So I need to somehow fix that.
 
+I added it to my Makefile.
+
+* DONE create dark theme
+
+Based on the prot color scheme, which is open source.

@@ -1,0 +1,8 @@
+* services hosted
+
+- HTTP server (Nginx)
+
+* services planned to be hosted
+
+- Gemini server (agate)
+- IRC server (ergo)

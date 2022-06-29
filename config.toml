@@ -2,6 +2,9 @@ baseURL = "https://artyns-garden.vercel.app" # to be decided probably going to b
 languageCode = "en-us"
 title = "Artyn's digital garden"
 metaDataFormat = "toml"
+relativeURLs=true
+uglyurls = true
+disableKinds = ["taxonomy", "term"]
 
 [taxonomies]
   tag = 'tags'

@@ -1,0 +1,7 @@
+{{ range .Site.RegularPages }}
+[[input.files]]
+path = "post/{{.File.BaseFileName}}.md"
+url = "{{.RelPermalink}}"
+title = "{{.Title}}"
+filetype = "Markdown"
+{{ end }}

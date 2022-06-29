@@ -12,6 +12,14 @@ Text browser view:
 
 A lot more work needs to be done, but the hard part of content presentation is done. If you want a more polished theme already easily available for Hugo I recommended [[https://github.com/capnfabs/paperesque][paperesque theme]]. I got the sidenotes code from that theme.
 
+* Installation
+
+you need:
+
+- stork-search binary
+- hugo (with goldmark rendererer)
+- esbuild
+
 * Inspiration
 
 Websites that inspired my design choices:
@@ -25,3 +33,4 @@ Websites that inspired my design choices:
 - https://scripter.co/
 - https://lepisma.xyz/
 - https://yarchive.net/bike/index.html
+- https://blog.d46.us/

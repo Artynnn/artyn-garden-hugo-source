@@ -1,22 +1,21 @@
 <!doctype html>
 <html lang="en" id="top-of-site">
   <head>
-    {{ partial "head.html" . }}
+    {{ partial "head.html" . }} 
    </head>
   <body>
     {{/* we load the sidenotes */}}
     {{ $sidenote := "js/sidenotes.js" | relURL }}
     <script src="{{ $sidenote }}"></script>
-
     {{ partial "header.html" . }}
     <article id="main" class="content-container">
       <div id="content">
-	<h1>{{ .Title | markdownify }}</h1>
-	{{ if (gt .WordCount 400 ) }}
-        {{ .TableOfContents }}
-	{{ end }}
-	{{ .Content }}
-	{{ partial "backlinks.html" . }}
+	  <h1>{{ .Title | markdownify }}</h1>
+	  {{ if (gt .WordCount 400) }}
+              {{ .TableOfContents }}
+	  {{ end }}
+	  {{ .Content }}
+	  {{ partial "backlinks.html" (dict "page" .) }}
       </div>
     </article>
     <h4><a class="version-history" href="https://github.com/Artynnn/wiki/commits/master/{{ .File.BaseFileName }}.org">Past revisions of this page</a></h4>
