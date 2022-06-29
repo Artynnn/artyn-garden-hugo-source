@@ -1,0 +1,84 @@
+
+[[input.files]]
+path = "post/on-emacs.md"
+url = "/post/on-emacs/"
+title = ""
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/changelog.md"
+url = "/changelog/"
+title = "Changelog"
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/20220314195005-mastodon_toots.md"
+url = "/post/20220314195005-mastodon_toots/"
+title = "Mastodon Toots"
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/search.md"
+url = "/search/"
+title = "Search This Site"
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/notes_on_building_a_website.md"
+url = "/post/notes_on_building_a_website/"
+title = "Notes on Building a Website"
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/reading_the_archives_of_hacker_news.md"
+url = "/post/reading_the_archives_of_hacker_news/"
+title = "Reading the Archives of Hacker News"
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/tech_musing.md"
+url = "/post/tech_musing/"
+title = "Tech News Musings"
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/colophon.md"
+url = "/post/colophon/"
+title = "Colophon"
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/good_retro_gaming_youtubers.md"
+url = "/post/good_retro_gaming_youtubers/"
+title = "Good Retro Gaming YouTubers"
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/games_i_beat.md"
+url = "/post/games_i_beat/"
+title = "Games I Beat"
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/rss.md"
+url = "/post/rss/"
+title = "RSS"
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/web-search.md"
+url = "/web-search/"
+title = ""
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/awesome_FOSSS.md"
+url = "/post/awesome_fosss/"
+title = "Awesome FOSS Online Games"
+filetype = "Markdown"
+
+[[input.files]]
+path = "post/test_retro_gameing.md"
+url = "/post/test_retro_gameing/"
+title = "Good Retro Gaming YouTubers"
+filetype = "Markdown"

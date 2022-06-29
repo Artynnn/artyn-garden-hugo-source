@@ -1,7 +1,5 @@
 .vercel
-content/
-content/*
-public/
+/public/
 
 /layouts/_default/index.sync-conflict-20220414-161946-DAWSE7X.toml
 /love/
